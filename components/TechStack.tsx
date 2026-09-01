@@ -308,9 +308,7 @@ export default function TechStack() {
               font-semibold
               uppercase
               tracking-[0.18em]
-              text-[var(--primary)]
-            "
-          >
+              text-[var(--primary)]">
             <span
               className="
                 h-px
@@ -322,32 +320,14 @@ export default function TechStack() {
             Tech Stack
 
             <span
-              className="
-                h-px
-                w-7
-                bg-[var(--primary)]
-              "
-            />
+              className="h-px w-7 bg-[var(--primary)]"/>
           </div>
 
           <h2
-            className="
-              text-3xl
-              font-bold
-              leading-tight
-              tracking-tight
-              text-[var(--text-primary)]
-              sm:text-4xl
-              lg:text-5xl
-            "
-          >
+            className="text-3xl font-bold leading-tight tracking-tight text-[var(--text-primary)] sm:text-4xl lg:text-5xl">
             The technologies behind
             <span
-              className="
-                gradient-text
-                block
-              "
-            >
+              className="gradient-text block">
               the products I build.
             </span>
           </h2>
