@@ -687,51 +687,24 @@ export default function TechStack() {
                       text-[var(--primary)]
                       transition-transform
                       duration-300
-                      group-hover:scale-110
-                    "
-                  >
+                      group-hover:scale-110">
+                    
                     {skill.icon}
                   </div>
 
                   <span
-                    className="
-                      rounded-full
-                      border
-                      border-[var(--border)]
-                      px-2
-                      py-1
-                      text-[8px]
-                      font-medium
-                      text-[var(--text-muted)]
-                      sm:text-[9px]
-                    "
-                  >
+                    className="rounded-full border border-[var(--border)] px-2 py-1 text-[8px] font-medium text-[var(--text-muted)] sm:text-[9px]">
                     {skill.category}
                   </span>
                 </div>
 
                 <h3
-                  className="
-                    mt-4
-                    text-sm
-                    font-bold
-                    text-[var(--text-primary)]
-                    sm:text-base
-                  "
-                >
+                  className="mt-4 text-sm font-bold text-[var(--text-primary)] sm:text-base">
                   {skill.name}
                 </h3>
 
                 <p
-                  className="
-                    mt-2
-                    text-[10px]
-                    leading-5
-                    text-[var(--text-muted)]
-                    sm:text-xs
-                    sm:leading-5
-                  "
-                >
+                  className="mt-2 text-[10px] leading-5 text-[var(--text-muted)] sm:text-xs sm:leading-5">
                   {skill.description}
                 </p>
               </motion.div>
@@ -759,72 +732,30 @@ export default function TechStack() {
           transition={{
             duration: 0.6,
           }}
-          className="
-            mx-auto
-            mt-12
-            max-w-6xl
-            rounded-2xl
-            border
-            border-[var(--border)]
-            bg-[var(--surface)]
-            p-6
-            sm:p-8
-          "
-        >
+          className="mx-auto mt-12 max-w-6xl rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-6 sm:p-8">
+
           <div
-            className="
-              flex
-              flex-col
-              gap-6
-              lg:flex-row
-              lg:items-center
-              lg:justify-between
-            "
-          >
+            className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
             <div>
               <div
-                className="
-                  flex
-                  items-center
-                  gap-2
-                  text-[var(--primary)]
-                "
-              >
+                className="flex items-center gap-2 text-[var(--primary)]">
                 <GitBranch size={18} />
 
                 <span
-                  className="
-                    text-xs
-                    font-semibold
-                    uppercase
-                    tracking-[0.14em]
-                  "
-                >
+                  className="text-xs font-semibold uppercase tracking-[0.14em]">
+
                   Development Workflow
                 </span>
               </div>
 
               <h3
-                className="
-                  mt-2
-                  text-xl
-                  font-bold
-                  text-[var(--text-primary)]
-                  sm:text-2xl
-                "
-              >
+                className="mt-2 text-xl font-bold text-[var(--text-primary)] sm:text-2xl">
                 From development to deployment.
               </h3>
 
               <p
-                className="
-                  mt-2
-                  max-w-2xl
-                  text-sm
-                  leading-6
-                  text-[var(--text-muted)]
-                "
-              >
+                className="mt-2 max-w-2xl text-sm leading-6 text-[var(--text-muted)]">
+
                 I work across the complete development
                 lifecycle — from writing and testing code
                 to version control and production deployment.
@@ -848,34 +779,17 @@ export default function TechStack() {
               ].map((step, index) => (
                 <div
                   key={step}
-                  className="
-                    flex
-                    items-center
-                    gap-2
-                  "
-                >
+                  className="flex items-center gap-2">
+
                   <span
-                    className="
-                      rounded-lg
-                      border
-                      border-[var(--border)]
-                      bg-[var(--background-secondary)]
-                      px-3
-                      py-2
-                      text-xs
-                      font-medium
-                      text-[var(--text-secondary)]
-                    "
-                  >
+                    className="rounded-lg border border-[var(--border)] bg-[var(--background-secondary)] px-3 py-2 text-xs font-medium text-[var(--text-secondary)]">
+
                     {step}
                   </span>
 
                   {index < 4 && (
                     <span
-                      className="
-                        text-[var(--text-muted)]
-                      "
-                    >
+                      className="text-[var(--text-muted)]">
                       →
                     </span>
                   )}
@@ -903,17 +817,9 @@ export default function TechStack() {
             duration: 0.5,
             delay: 0.2,
           }}
-          className="
-            mx-auto
-            mt-8
-            max-w-2xl
-            text-center
-            text-xs
-            leading-6
-            text-[var(--text-muted)]
-          "
-        >
-          My primary focus is full stack JavaScript
+          className="mx-auto mt-8 max-w-2xl text-center text-xs leading-6 text-[var(--text-muted)]">
+
+          My primary focus is full stack
           development, with MERN technologies at the core
           of my development workflow.
         </motion.p>
