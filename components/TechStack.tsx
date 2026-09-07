@@ -310,12 +310,7 @@ export default function TechStack() {
               tracking-[0.18em]
               text-[var(--primary)]">
             <span
-              className="
-                h-px
-                w-7
-                bg-[var(--primary)]
-              "
-            />
+              className="h-px w-7 bg-[var(--primary)]"/>
 
             Tech Stack
 
@@ -341,9 +336,8 @@ export default function TechStack() {
               leading-7
               text-[var(--text-muted)]
               sm:text-lg
-              sm:leading-8
-            "
-          >
+              sm:leading-8">
+                
             A full stack development toolkit focused on
             modern JavaScript technologies, scalable
             applications and production-ready solutions.

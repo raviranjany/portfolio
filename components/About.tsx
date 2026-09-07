@@ -961,8 +961,7 @@ const summaryParagraphs = [
 
 export default function About() {
   return (
-    <section
-      id="about"
+    <section id="about"
       className="
         relative
         overflow-hidden

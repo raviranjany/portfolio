@@ -18,8 +18,7 @@ export default function Projects() {
   );
 
   return (
-    <section
-      id="projects"
+    <section id="projects"
       className="relative overflow-hidden bg-[var(--background)] py-20 sm:py-24 lg:py-28"
     >
       {/* Background Glow */}
